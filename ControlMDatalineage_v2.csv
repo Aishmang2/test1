@@ -15,9 +15,3 @@ p24mer,p15mer,Auto_stag_to_target,wf_folder_control,m_control_date,low,folder_co
 p52mer,p33mer,Auto_stag_to_target,wf_records_tap,m_records_tap,low,policy_term,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_records_tap/log/wf_records_tap_cotlm.log 2>&1
 p52mer,p36mer,Auto_stag_to_target,wf_records_tap,m_records_tap,low,folder_control,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_records_tap/log/wf_records_tap_cotlm.log 2>&1
 p52mer,p37mer,Auto_stag_to_target,wf_records_tap,m_records_tap,low,stg.folder_control,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_records_tap/log/wf_records_tap_cotlm.log 2>&1
-p12mer,p46mer,,,,,,touch ${mer_home}/log/touch.etl.auto_dm_TAP
-p33ss,p11mer,,,,,,"""$srcdir"" delete_done_files.ksh sso_mc_pnl_monthly.ist > $logdir delete_done_files.ksh sso_mc_pnl_monthly.log 2>&1"
-p32ss,p24mer,,,,,,"""$srcdir"" delete_done_files.ksh sso_mc_prem_monthly.ist > $logdir delete_done_files.ksh sso_mc_prem_monthly.log 2>&1"
-p38ss,p32ss,,,,,,"""$srcdir"" delete_done_files.ksh sso_mc_vm_prem_monthly.ist > $logdir delete_done_files.ksh sso_mc_vm_prem_monthly.log 2>&1"
-,p32ss,,,,,,
-,p32ss,,,,,,
