@@ -1,4 +1,4 @@
-﻿Jobname,predecessor ,Folder Name,workflow Name,Mapping Name,Mapping Categorization,Target Table Name,cmdline
+﻿Jobname,Predecessor,FolderName,WorkflowName,MappingName,MappingCategorization,TargetTableName,Cmdline
 P17mer,p52mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.D_policy,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
 P17mer,p24mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.d_company,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
 P17mer,p76mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.d_industry,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
