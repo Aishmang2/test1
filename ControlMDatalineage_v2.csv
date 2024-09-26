@@ -1,7 +1,6 @@
 ﻿Jobname,Predecessor,FolderName,WorkflowName,MappingName,MappingCategorization,TargetTableName,Cmdline
 P17mer,p52mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.D_policy,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
 P17mer,p24mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.d_company,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
-P17mer,p76mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.d_industry,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
 P17mer,p56mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.producer,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
 P17mer,p12mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,stg.policy,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
 P17mer,p01mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_coverage,Medium,stg.acct,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
@@ -15,3 +14,4 @@ p24mer,p15mer,Auto_stag_to_target,wf_folder_control,m_control_date,low,folder_co
 p52mer,p33mer,Auto_stag_to_target,wf_records_tap,m_records_tap,low,policy_term,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_records_tap/log/wf_records_tap_cotlm.log 2>&1
 p52mer,p36mer,Auto_stag_to_target,wf_records_tap,m_records_tap,low,folder_control,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_records_tap/log/wf_records_tap_cotlm.log 2>&1
 p52mer,p37mer,Auto_stag_to_target,wf_records_tap,m_records_tap,low,stg.folder_control,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_records_tap/log/wf_records_tap_cotlm.log 2>&1
+P17mer,p76mer,Auto_stag_to_target,wf_d_auto_policy,m_d_auto_policy,Very Complex,dm.d_industry,${mer_home}/Scripts/mer_pmcmd.ksh Auto_stag_to_target wf_d_auto_policy/log/wf_d_auto_policy_cotlm.log 2>&1
